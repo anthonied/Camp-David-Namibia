@@ -1,0 +1,24 @@
+td.tdImg { width:170px; height:200px;}
+#lb_lbPrev {background: url(../../battle_tofight_2010/lib/lytebox/images/prev_grey.gif) left 15% no-repeat;}
+#lb_lbNext {background: url(../../battle_tofight_2010/lib/lytebox/images/next_grey.gif) right 15% no-repeat;}
+body{background-color:#eee;}
+a:active {outline:none;/*remove dotted links*/}
+#divWG {text-align:center; font: 11px Verdana, Arial, Helvetica, sans-serif;}
+#divWG img, #divWG table {border:none;}
+#divWG a:link, #divWG a:visited {text-decoration:none;}
+#divWG a:hover {text-decoration:underline;}
+#tblThumbsLayout {text-align:left; margin: 0 auto;}
+#tblGalleryName{margin-top:2px;}
+#currentGalleryLocation {font-weight:bold;}
+td#galleryNameCell {font-size: 18px; font-weight:bold; color:#606060; margin: 6px 6px 0 0;}
+td#pagingCell {text-align:right; white-space:nowrap;}
+.currentPage {font-weight: bold;}
+td#pagingCell a, .currentPage {font-size: 12px; padding: 3px 5px; border:1px solid #ccc;vertical-align:middle; }
+td#pagingCell a:hover, .currentPage {border: #666 1px solid; background-color:#fff; text-decoration:none;}
+td.tdImg {border: 1px solid; border-color: #aaa #666 #666 #aaa;
+  text-align:center; background-color:#fff; vertical-align:middle;padding:4px;}
+td.tdImg img {margin-top:11px;}
+#pnCell {text-align:right;padding-top:10px;}
+a.pn, a.pn:LINK,a.pn:VISITED {color: #606060; font: 9px arial, helvetica, sans-serif; text-decoration: none; padding: 1px 4px;}
+td.custom a {display:block;position:relative;}
+td.custom .icon {margin:0;position:absolute;background:url(../../battle_tofight_2010/lib/images/play64.png) 0 0 no-repeat;width:64px;height:64px;opacity:0.65;filter:alpha(opacity=65);top:40%;left:35%;}

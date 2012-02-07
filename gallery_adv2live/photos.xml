@@ -1,0 +1,221 @@
+<gallery
+base = ""
+background = "#FFFFFF"
+banner = "#F0F0F0"
+text = "#000000"
+link = "#0000FF"
+alink = "#FF0000"
+vlink = "#800080"
+date = "2009/03/27">
+	<sitename>Adventure to live</sitename>
+	<photographer></photographer>
+	<contactinfo></contactinfo>
+	<email></email>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#F0F0F0"> </banner>
+<thumbnail base ="thumbnails/" font = "Arial" fontsize = "4" color = "#F0F0F0" border = "0" rows = "3" col = "4"> </thumbnail> 
+<large base ="images/" font = "Arial" fontsize = "3" color = "#F0F0F0" border = "0"> </large>
+<images id = "images">
+
+<image
+path = "Picture 002.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 002.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 009.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 009.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 019.jpg"
+width = "249"
+height = "350"
+thumbpath = "Picture 019.jpg"
+thumbwidth = "85"
+thumbheight = "120">
+</image>
+
+
+<image
+path = "Picture 022.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 022.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 031.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 031.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 038.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 038.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 079.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 079.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 104.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 104.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 133.jpg"
+width = "233"
+height = "350"
+thumbpath = "Picture 133.jpg"
+thumbwidth = "80"
+thumbheight = "120">
+</image>
+
+
+<image
+path = "Picture 156.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 156.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 185.jpg"
+width = "233"
+height = "350"
+thumbpath = "Picture 185.jpg"
+thumbwidth = "80"
+thumbheight = "120">
+</image>
+
+
+<image
+path = "Picture 194.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 194.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 223.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 223.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 270.jpg"
+width = "233"
+height = "350"
+thumbpath = "Picture 270.jpg"
+thumbwidth = "80"
+thumbheight = "120">
+</image>
+
+
+<image
+path = "Picture 274.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 274.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 356.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 356.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 414.jpg"
+width = "350"
+height = "338"
+thumbpath = "Picture 414.jpg"
+thumbwidth = "120"
+thumbheight = "115">
+</image>
+
+
+<image
+path = "Picture 489.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 489.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 526.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 526.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+
+<image
+path = "Picture 609.jpg"
+width = "350"
+height = "233"
+thumbpath = "Picture 609.jpg"
+thumbwidth = "120"
+thumbheight = "80">
+</image>
+
+</images>
+</gallery>

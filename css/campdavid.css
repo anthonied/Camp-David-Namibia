@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(../images/layout/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-size: 12px;
+	line-height: normal;
+	color: #6A4E1F;
+	background-color: #CFB286;
+	font-family: Arial, Helvetica, sans-serif;
+	background-attachment: fixed;
+	margin: 0px;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	line-height: normal;
+	color: #684D22;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: normal;
+	color: #876A3E;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: normal;
+	color: #987322;
+}
+.white_text {
+	font-size: 14px;
+	line-height: normal;
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: uppercase;
+}
+.quote {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	color: #996633;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+	line-height: 16px;
+	color: #684D22;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:visited {
+	line-height: normal;
+		line-height: 16px;
+	color: #2D3601;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+	line-height: normal;
+	color: #000000;
+	line-height: 16px;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: normal;
+}
+.eventwater {
+	background-attachment: scroll;
+	background-image: url(../images/pages/events_watermark.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.style2 {font-size: 36px}
+.style3 {font-size: 24px}
+
+.style4 {
+	color: #2D5579
+}
+.style5 {color: #000000}
+.style6 {color: #FF6600}
+.phodie {
+	background-attachment: scroll;
+	background-image: url(../images/layout/battleheart_up.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.phodie a {
+	color: #FFFFFF;
+}
+
+.brown {
+		color: #936819;
+}
+.style2blue {
+	font-size: 36px;
+	color: #2F81BD;
+}
+.style3blue {
+	font-size: 24px;
+	color: #2F81BD;
+}
+.blue {
+	color: #2F81BD;
+}
+.style2orange{
+	font-size: 36px;
+	color: #cc6600;
+}
+.style3orange {
+	font-size: 24px;
+	color: #cc6600;
+}
+.orange {
+	color: #cc6600;
+}.login {
+	color: #CCCCCC;
+}
+.login_image {
+	background-image: url(../images/layout/logged_in.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.small {
+	font-size: 9px;
+	color: #FFFFFF;
+}
+.green {
+	color: #060;
+}
+.style3green {
+	font-size: 20px;
+	color: #060;
+}
+.style3brown {
+	font-size: 20px;
+	color: #960;
+}
+.red {
+	font-size: 16px;
+	color: #F00;
+	font-style: italic;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.style2green {
+	font-size: 36px;
+	color: #060;
+}
+.style4red {
+	font-weight: bold;
+	color: #DC3C29;
+	text-decoration: underline;
+	font-size: 18px;
+}
+.style2smaller {
+	font-size: 26px;
+	font-weight: bold;
+}
+.redNOitalics {
+	font-size: 16px;
+	color: #F00;
+	font-weight: bold;
+}
+.darkredcolor {
+	color: #B30000;
+}
+.redbigger {
+	font-size: 22px;
+	color: #F00;
+	font-style: italic;
+	text-decoration: underline;
+	font-weight: bold;
+}

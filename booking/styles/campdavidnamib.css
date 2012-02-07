@@ -1,0 +1,343 @@
+@charset "UTF-8";
+
+*{
+	font-size: 100%;
+}	
+body {
+	background-position: top center;
+	margin: 0px;
+	color: rgb(106, 78, 31);
+	line-height: normal;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 8px;
+	background-image: url("../images/background.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	background-color: rgb(207, 178, 134);
+}
+
+h1 {
+	color: rgb(104, 77, 34);
+	line-height: normal;
+	letter-spacing: -1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h2 {
+	color: rgb(135, 106, 62);
+	line-height: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+h3 {
+	color: rgb(152, 115, 34);
+	line-height: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.white_text {
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: normal;
+	font-size: 14px;
+	font-variant: normal;
+	font-weight: bolder;
+}
+
+.quote {
+	color: rgb(153, 102, 51);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+a:link {
+	color: rgb(104, 77, 34);
+	text-transform: none;
+	line-height: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: normal;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(45, 54, 1);
+}
+
+a:hover {
+	color: rgb(0, 0, 0);
+}
+
+.small {
+	line-height: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+
+.eventwater {
+	background-position: right bottom;
+	background-image: url("../images/pages/events_watermark.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+
+.style2 {
+	font-size: 36px;
+}
+
+.style3 {
+	font-size: 24px;
+}
+
+.style4 {
+	color: rgb(45, 85, 121);
+}
+
+.style5 {
+	color: rgb(0, 0, 0);
+}
+
+.style6 {
+	color: rgb(255, 102, 0);
+}
+
+.phodie {
+	background-image: url("../images/layout/battleheart_up.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+
+.phodie a {
+	color: rgb(255, 255, 255);
+}
+
+.brown {
+	color: rgb(147, 104, 25);
+}
+
+.style2blue {
+	color: rgb(47, 129, 189);
+	font-size: 36px;
+}
+
+.style3blue {
+	color: rgb(47, 129, 189);
+	font-size: 24px;
+}
+
+.blue {
+	color: rgb(47, 129, 189);
+}
+
+.style2orange {
+	color: rgb(204, 102, 0);
+	font-size: 36px;
+}
+
+.style3orange {
+	color: rgb(204, 102, 0);
+	font-size: 24px;
+}
+
+.orange {
+	color: rgb(204, 102, 0);
+}
+
+.login {
+	color: rgb(204, 204, 204);
+}
+
+.login_image {
+	background-position: right top;
+	background-image: url("../images/layout/logged_in.gif");
+	background-repeat: no-repeat;
+}
+
+.small {
+	color: rgb(255, 255, 255);
+	font-size: 9px;
+}
+
+div.page {
+	width: 940px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+	margin-bottom: 0px;
+	padding: 0;
+}
+
+div.page #header {
+	margin: 0;
+	width: 940px;
+	height: 239px;
+	background-image: url("../images/banner.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+div.page #footer {
+	color: rgb(255, 255, 255);
+	font-size: 9px;
+	height: auto;
+	text-align: center;
+	vertical-align: bottom;
+	background-color: #9a6d1c;
+	margin: 0;
+	padding: 0;
+}
+
+div.page #campdavidbanner {
+	width: 940px;
+	height: 158px;
+	background-image: url("../images/camp_david_banner.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+div.page #footer img.polar {
+	width: 107px;
+	height: 43px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+div.page #footer img.solution {
+	width: 103px;
+	height: 43px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#content {
+	font-size: 1.5em;
+	padding: 1em;
+	padding-top: 0;
+	min-height: 60%;
+}
+
+.loginscreen {
+	display: block;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 1em 1em 1em;
+}
+.loginscreen div{
+	margin: 1em 0 1em 0;
+}
+
+.registerscreen
+{
+	font-size: 1em;
+}
+.registerscreen div{
+	margin: 0.2em 0 0.2em 0;
+}
+fieldset {
+	padding: 0 1em 1em 1em;
+}
+
+legend {
+	padding: 1em;
+}
+
+label {
+	display: inline-block;
+	width: 6em;
+}
+
+.registerscreen label {
+	display: inline-block;
+	width: 13em;
+}
+.link
+{
+	border: 0;
+	position: relative;
+	left: 300px;
+	top: 190px; 
+
+}
+label.error
+{
+	margin-left: 1em;
+	display: inline;
+	color: red;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.link img
+{
+	border: 0;
+}
+
+.ui-datepicker
+{
+	font-size: 1.5em;
+}
+
+.messagebox{
+	font-size: 1.1em;
+	margin-bottom: 0.5em;
+	margin-top: 0;
+	padding: 1em 0.7em;
+}
+.messagebox span{
+	padding: 0;
+	margin-right: 1em; 
+	float: left;
+}
+.messagebox strong 
+{
+	margin-right: 1em;	
+}
+
+.button
+	{
+		font-size: 0.9em;
+	}
+	
+	#attendeesdialog{
+		font-size: 1.5em; 
+	}
+	
+	.ui-button { margin-left: -1px; }
+	.ui-button-icon-only .ui-button-text { padding: 0.2em; } 
+	.ui-autocomplete-input { margin: 0; padding: 0.3em 0 0.3em 0.3em; margin-left: -0.4em; width: 9.2em;}	
+	.ui-menu-item {font-size: 1.2em;}	
+	
+	tr.ui-widget-content.ui-state-highlight
+	{
+		background: url("../images/rowhighlight.png");
+		
+	}
+	
+	tr.ui-state-hover
+	{
+		cursor: pointer;
+	}
+
+	.eventdisplay
+	{
+		height: 211px;
+		margin: 2em;
+	}
+	
+	.eventdisplay img{
+		margin: 5px;
+		border: 1px solid rgb(153, 102, 51);
+		float: left;
+		width: 200px;
+		height: 200px;		
+	}

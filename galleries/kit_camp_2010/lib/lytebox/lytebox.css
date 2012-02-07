@@ -1,0 +1,93 @@
+#lb_lbOverlay { position: fixed; top: 0; left: 0; z-index: 99998; width: 100%; height: 500px; }
+	#lb_lbOverlay.grey { background-color: #000000; }
+	#lb_lbOverlay.red { background-color: #330000; }
+	#lb_lbOverlay.green { background-color: #003300; }
+	#lb_lbOverlay.blue { background-color: #011D50; }
+	#lb_lbOverlay.gold { background-color: #666600; }
+
+#lb_lbMain { position: absolute; left: 0; width: 100%; z-index: 99999; text-align: center; line-height: 0; }
+#lb_lbMain a img { border: none; }
+
+#lb_lbOuterContainer { position: relative; background-color: #fff; width: 200px; height: 200px; margin: 0 auto; }
+	#lb_lbOuterContainer.grey { border: 3px solid #888888; }
+	#lb_lbOuterContainer.red { border: 3px solid #DD0000; }
+	#lb_lbOuterContainer.green { border: 3px solid #00B000; }
+	#lb_lbOuterContainer.blue { border: 3px solid #5F89D8; }
+	#lb_lbOuterContainer.gold { border: 3px solid #B0B000; }
+
+#lb_lbDetailsContainer {	font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em;	overflow: auto; margin: 0 auto; }
+	#lb_lbDetailsContainer.grey { border: 3px solid #888888; border-top: none; }
+	#lb_lbDetailsContainer.red { border: 3px solid #DD0000; border-top: none; }
+	#lb_lbDetailsContainer.green { border: 3px solid #00B000; border-top: none; }
+	#lb_lbDetailsContainer.blue { border: 3px solid #5F89D8; border-top: none; }
+	#lb_lbDetailsContainer.gold { border: 3px solid #B0B000; border-top: none; }
+
+#lb_lbImageContainer, #lb_lbIframeContainer { padding: 10px; }
+#lb_lbLoading {
+	position: absolute; top: 45%; left: 0%; height: 32px; width: 100%; text-align: center; line-height: 0; background: url(../../../battle_tofight_2010/lib/lytebox/images/loading.gif) center no-repeat;
+}
+
+#lb_lbHoverNav { position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#lb_lbImageContainer>#lb_lbHoverNav { left: 0; }
+#lb_lbHoverNav a { outline: none; }
+
+#lb_lbPrev { width: 49%; height: 100%; background: transparent url(../../../battle_tofight_2010/lib/lytebox/images/blank.gif) no-repeat; display: block; left: 0; float: left; }
+	#lb_lbPrev.grey:hover, #lb_lbPrev.grey:visited:hover { background: url(../../../battle_tofight_2010/lib/lytebox/images/prev_grey.gif) left 15% no-repeat; }
+	#lb_lbPrev.red:hover, #lb_lbPrev.red:visited:hover { background: url(../../../battle_tofight_2010/lib/lytebox/images/prev_red.gif) left 15% no-repeat; }
+	#lb_lbPrev.green:hover, #lb_lbPrev.green:visited:hover { background: url(../../../battle_tofight_2010/lib/lytebox/images/prev_green.gif) left 15% no-repeat; }
+	#lb_lbPrev.blue:hover, #lb_lbPrev.blue:visited:hover { background: url(../../../battle_tofight_2010/lib/lytebox/images/prev_blue.gif) left 15% no-repeat; }
+	#lb_lbPrev.gold:hover, #lb_lbPrev.gold:visited:hover { background: url(../../../battle_tofight_2010/lib/lytebox/images/prev_gold.gif) left 15% no-repeat; }
+	
+#lb_lbNext { width: 49%; height: 100%; background: transparent url(../../../battle_tofight_2010/lib/lytebox/images/blank.gif) no-repeat; display: block; right: 0; float: right; }
+	#lb_lbNext.grey:hover, #lb_lbNext.grey:visited:hover { background: url(../../../battle_tofight_2010/lib/lytebox/images/next_grey.gif) right 15% no-repeat; }
+	#lb_lbNext.red:hover, #lb_lbNext.red:visited:hover { background: url(../../../battle_tofight_2010/lib/lytebox/images/next_red.gif) right 15% no-repeat; }
+	#lb_lbNext.green:hover, #lb_lbNext.green:visited:hover { background: url(../../../battle_tofight_2010/lib/lytebox/images/next_green.gif) right 15% no-repeat; }
+	#lb_lbNext.blue:hover, #lb_lbNext.blue:visited:hover { background: url(../../../battle_tofight_2010/lib/lytebox/images/next_blue.gif) right 15% no-repeat; }
+	#lb_lbNext.gold:hover, #lb_lbNext.gold:visited:hover { background: url(../../../battle_tofight_2010/lib/lytebox/images/next_gold.gif) right 15% no-repeat; }
+
+#lb_lbPrev2, #lb_lbNext2 { text-decoration: none; font-weight: bold; }
+	#lb_lbPrev2.grey, #lb_lbNext2.grey, #lb_lbSpacer.grey { color: #333333; }
+	#lb_lbPrev2.red, #lb_lbNext2.red, #lb_lbSpacer.red { color: #620000; }
+	#lb_lbPrev2.green, #lb_lbNext2.green, #lb_lbSpacer.green { color: #003300; }
+	#lb_lbPrev2.blue, #lb_lbNext2.blue, #lb_lbSpacer.blue { color: #01379E; }
+	#lb_lbPrev2.gold, #lb_lbNext2.gold, #lb_lbSpacer.gold { color: #666600; }
+	
+#lb_lbPrev2_Off, #lb_lbNext2_Off { font-weight: bold; }
+	#lb_lbPrev2_Off.grey, #lb_lbNext2_Off.grey { color: #CCCCCC; }
+	#lb_lbPrev2_Off.red, #lb_lbNext2_Off.red { color: #FFCCCC; }
+	#lb_lbPrev2_Off.green, #lb_lbNext2_Off.green { color: #82FF82; }
+	#lb_lbPrev2_Off.blue, #lb_lbNext2_Off.blue { color: #B7CAEE; }
+	#lb_lbPrev2_Off.gold, #lb_lbNext2_Off.gold { color: #E1E100; }
+	
+#lb_lbDetailsData { padding: 0 10px; }
+	#lb_lbDetailsData.grey { color: #333333; }
+	#lb_lbDetailsData.red { color: #620000; }
+	#lb_lbDetailsData.green { color: #003300; }
+	#lb_lbDetailsData.blue { color: #01379E; }
+	#lb_lbDetailsData.gold { color: #666600; }
+
+#lb_lbDetails { width: 50%; float: left; text-align: left; }
+#lb_lbCaption { display: block; font-weight: bold; }
+#lb_lbNumberDisplay { float: left; display: block; padding-bottom: 1.0em; }
+#lb_lbNavDisplay { float: left; display: block; padding-bottom: 1.0em; }
+
+#lb_lbClose { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lb_lbClose.grey { background: url(../../../battle_tofight_2010/lib/lytebox/images/close_grey.png) no-repeat; }
+	#lb_lbClose.red { background: url(../../../battle_tofight_2010/lib/lytebox/images/close_red.png) no-repeat; }
+	#lb_lbClose.green { background: url(../../../battle_tofight_2010/lib/lytebox/images/close_green.png) no-repeat; }
+	#lb_lbClose.blue { background: url(../../../battle_tofight_2010/lib/lytebox/images/close_blue.png) no-repeat; }
+	#lb_lbClose.gold { background: url(../../../battle_tofight_2010/lib/lytebox/images/close_gold.png) no-repeat; }
+
+#lb_lbPlay { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lb_lbPlay.grey { background: url(../../../battle_tofight_2010/lib/lytebox/images/play_grey.png) no-repeat; }
+	#lb_lbPlay.red { background: url(../../../battle_tofight_2010/lib/lytebox/images/play_red.png) no-repeat; }
+	#lb_lbPlay.green { background: url(../../../battle_tofight_2010/lib/lytebox/images/play_green.png) no-repeat; }
+	#lb_lbPlay.blue { background: url(../../../battle_tofight_2010/lib/lytebox/images/play_blue.png) no-repeat; }
+	#lb_lbPlay.gold { background: url(../../../battle_tofight_2010/lib/lytebox/images/play_gold.png) no-repeat; }
+	
+#lb_lbPause { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lb_lbPause.grey { background: url(../../../battle_tofight_2010/lib/lytebox/images/pause_grey.png) no-repeat; }
+	#lb_lbPause.red { background: url(../../../battle_tofight_2010/lib/lytebox/images/pause_red.png) no-repeat; }
+	#lb_lbPause.green { background: url(../../../battle_tofight_2010/lib/lytebox/images/pause_green.png) no-repeat; }
+	#lb_lbPause.blue { background: url(../../../battle_tofight_2010/lib/lytebox/images/pause_blue.png) no-repeat; }
+	#lb_lbPause.gold { background: url(../../../battle_tofight_2010/lib/lytebox/images/pause_gold.png) no-repeat; }
