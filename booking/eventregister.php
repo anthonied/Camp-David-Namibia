@@ -74,6 +74,24 @@ include_once 'include/session.php';
 					class="ui-widget-content"/>
 			</div>	
 			<?php
+				} elseif($eventtype == '3') // Adventure to live
+				{
+			?>
+
+			<div>
+				<label>Marital Status: *</label>
+				<select name="maritalstatus" class="combobox">
+				<option value="Single" selected="selected">Single</option>
+				<option value="Married">Married</option>
+				<option value="Engaged">Engaged</option>				
+				<option value="Divorced">Divorced</option>
+				</select>
+			</div>			
+			<div>
+				<label>Occupation: *</label><input type="text" name="occupation"
+					class="ui-widget-content"/>
+			</div>	
+			<?php
 				} 
 			?>
 				<br />

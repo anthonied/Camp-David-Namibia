@@ -410,7 +410,7 @@ public function GetUserInfoAlt($idusers)
 	}
 	public function GetActiveEvents()
 	{
-		$query = "SELECT * FROM ".TABLE_EVENTS." WHERE status='Active'";
+		$query = "SELECT * FROM ".TABLE_EVENTS." WHERE status='Active' AND enddate > NOW()";
 		$result = $this->ExecuteQuery($query);
 
 		$concat = array();

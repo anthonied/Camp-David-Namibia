@@ -17,13 +17,20 @@ if($_REQUEST['nonquery'] === 'true')
 			$eventdetail = $database->GetEventDetails(mysql_escape_string($_REQUEST[eventid]));
 			$type = $database->GetEventType($_REQUEST[eventid]);
 
-			if($type == 1)
-			$type = "Knights in Training";
-			else
-			$type = "Battle to Fight";
-			$mailer->SendEventPayed($userdetail[firstname]." ".$userdetail[lastname],
-			$userdetail[email], $type, $eventdetail[startdate], $eventdetail[enddate], $eventdetail[cost], $eventdetail[description]);
-
+			if($type == 1) {
+				$type = "Knights in Training";
+				$mailer->SendKITEventPayed($userdetail[firstname]." ".$userdetail[lastname],
+				$userdetail[email], $type, $eventdetail[startdate], $eventdetail[enddate], $eventdetail[cost], $eventdetail[description]);
+			}
+			elseif($type == 2) {
+				$type = "Battle to Fight";
+				$mailer->SendB2FEventPayed($userdetail[firstname]." ".$userdetail[lastname],
+				$userdetail[email], $type, $eventdetail[startdate], $eventdetail[enddate], $eventdetail[cost], $eventdetail[description]);
+			}elseif($type == 3) {
+				$type = "Adventure to Live";
+				$mailer->SendA2LEventPayed($userdetail[firstname]." ".$userdetail[lastname],
+				$userdetail[email], $type, $eventdetail[startdate], $eventdetail[enddate], $eventdetail[cost], $eventdetail[description]);
+			}		
 		}
 	}
 	elseif ($oper === 'del')

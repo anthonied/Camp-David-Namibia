@@ -103,7 +103,57 @@ public function SendNewEmail($name, $email, $newemail)
 		return $result;//mail($email,$subject,$body,$from);
 	}
 	
-public function SendEventRegistered($name, $email, $campname, $datestart, $dateend, $cost, $description)
+public function SendB2FEventRegistered($name, $email, $campname, $datestart, $dateend, $cost, $description)
+	{
+		//$from = "From: ".EMAIL_FROM_NAME." <".EMAIL_FROM_ADDR.">";
+		$subject = "Campdavid Namibia - Registered for event";
+		$body = "<html> <img src=\"images/mailheader.png\"></img><br />".$name.",<br /><br />"
+		."You have successfully registered for a new event: <br/>"
+		."Camp Name: $campname <br />"
+		."Date: $datestart - $dateend <br/>"."Cost: N$ $cost <br/>"
+		."Description: $description <br /><br />"
+		."Please fill in the attached form and email the completed form and proof of payment to"
+		." <a href=\"mailto:info@campdavid.co.na\">info@campdavid.co.na</a> as soon as possible."
+		."<br /><br />Thank you<br />"
+		."- Campdavid Namibia</html>";
+		 
+		$this->phpmailer->AddAddress($email, $name);
+		$this->phpmailer->Subject = $subject;
+		$this->phpmailer->MsgHTML($body);		
+		$this->phpmailer->AddAttachment("images/mailheader.png");
+		$this->phpmailer->AddAttachment("attachements/battle2fightform.docx");
+		$result = $this->phpmailer->Send();
+		$this->phpmailer->ClearAllRecipients();
+		$this->phpmailer->ClearAttachments();
+		return $result;//mail($email,$subject,$body,$from);
+	}
+	
+public function SendKITEventRegistered($name, $email, $campname, $datestart, $dateend, $cost, $description)
+	{
+		//$from = "From: ".EMAIL_FROM_NAME." <".EMAIL_FROM_ADDR.">";
+		$subject = "Campdavid Namibia - Registered for event";
+		$body = "<html> <img src=\"images/mailheader.png\"></img><br />".$name.",<br /><br />"
+		."You have successfully registered for a new event: <br/>"
+		."Camp Name: $campname <br />"
+		."Date: $datestart - $dateend <br/>"."Cost: N$ $cost <br/>"
+		."Description: $description <br /><br />"
+		."Please fill in the attached form and email the completed form and proof of payment to"
+		." <a href=\"mailto:info@campdavid.co.na\">info@campdavid.co.na</a> as soon as possible."
+		."<br /><br />Thank you<br />"
+		."- Campdavid Namibia</html>";
+		 
+		$this->phpmailer->AddAddress($email, $name);
+		$this->phpmailer->Subject = $subject;
+		$this->phpmailer->MsgHTML($body);		
+		$this->phpmailer->AddAttachment("images/mailheader.png");
+		$this->phpmailer->AddAttachment("attachements/battle2fightform.docx");
+		$result = $this->phpmailer->Send();
+		$this->phpmailer->ClearAllRecipients();
+		$this->phpmailer->ClearAttachments();
+		return $result;//mail($email,$subject,$body,$from);
+	}
+	
+public function SendA2LEventRegistered($name, $email, $campname, $datestart, $dateend, $cost, $description)
 	{
 		//$from = "From: ".EMAIL_FROM_NAME." <".EMAIL_FROM_ADDR.">";
 		$subject = "Campdavid Namibia - Registered for event";
@@ -129,6 +179,78 @@ public function SendEventRegistered($name, $email, $campname, $datestart, $datee
 	}
 	
 public function SendEventPayed($name, $email, $campname, $datestart, $dateend, $cost, $description)
+	{
+		//$from = "From: ".EMAIL_FROM_NAME." <".EMAIL_FROM_ADDR.">";
+		$subject = "Campdavid Namibia - Paid for event";
+		$body = "<html> <img src=\"../images/mailheader.png\"></img><br />".$name.",<br /><br />"
+		."You have successfully paid for a new event: <br/>"
+		."Camp Name: $campname"
+		."<br />Date: $datestart - $dateend <br/>"."Cost: N$ $cost <br/>"
+		."Description: $description <br /><br />"
+		."Please follow the instructions of the attached document."
+		."<br /><br />Thank you<br />"
+		."- Campdavid Namibia</html>";
+		 
+		$this->phpmailer->AddAddress($email, $name);
+		$this->phpmailer->Subject = $subject;
+		$this->phpmailer->MsgHTML($body);		
+		$this->phpmailer->AddAttachment("../images/mailheader.png");
+		$this->phpmailer->AddAttachment("../attachements/battle2fightinfo.docx");
+		$result = $this->phpmailer->Send();
+		$this->phpmailer->ClearAllRecipients();
+		$this->phpmailer->ClearAttachments();
+		return $result;//mail($email,$subject,$body,$from);
+	}
+	
+public function SendKITEventPayed($name, $email, $campname, $datestart, $dateend, $cost, $description)
+	{
+		//$from = "From: ".EMAIL_FROM_NAME." <".EMAIL_FROM_ADDR.">";
+		$subject = "Campdavid Namibia - Paid for event";
+		$body = "<html> <img src=\"../images/mailheader.png\"></img><br />".$name.",<br /><br />"
+		."You have successfully paid for a new event: <br/>"
+		."Camp Name: $campname"
+		."<br />Date: $datestart - $dateend <br/>"."Cost: N$ $cost <br/>"
+		."Description: $description <br /><br />"
+		."Please follow the instructions of the attached document."
+		."<br /><br />Thank you<br />"
+		."- Campdavid Namibia</html>";
+		 
+		$this->phpmailer->AddAddress($email, $name);
+		$this->phpmailer->Subject = $subject;
+		$this->phpmailer->MsgHTML($body);		
+		$this->phpmailer->AddAttachment("../images/mailheader.png");
+		$this->phpmailer->AddAttachment("../attachements/battle2fightinfo.docx");
+		$result = $this->phpmailer->Send();
+		$this->phpmailer->ClearAllRecipients();
+		$this->phpmailer->ClearAttachments();
+		return $result;//mail($email,$subject,$body,$from);
+	}
+	
+	public function SendB2FEventPayed($name, $email, $campname, $datestart, $dateend, $cost, $description)
+	{
+		//$from = "From: ".EMAIL_FROM_NAME." <".EMAIL_FROM_ADDR.">";
+		$subject = "Campdavid Namibia - Paid for event";
+		$body = "<html> <img src=\"../images/mailheader.png\"></img><br />".$name.",<br /><br />"
+		."You have successfully paid for a new event: <br/>"
+		."Camp Name: $campname"
+		."<br />Date: $datestart - $dateend <br/>"."Cost: N$ $cost <br/>"
+		."Description: $description <br /><br />"
+		."Please follow the instructions of the attached document."
+		."<br /><br />Thank you<br />"
+		."- Campdavid Namibia</html>";
+		 
+		$this->phpmailer->AddAddress($email, $name);
+		$this->phpmailer->Subject = $subject;
+		$this->phpmailer->MsgHTML($body);		
+		$this->phpmailer->AddAttachment("../images/mailheader.png");
+		$this->phpmailer->AddAttachment("../attachements/battle2fightinfo.docx");
+		$result = $this->phpmailer->Send();
+		$this->phpmailer->ClearAllRecipients();
+		$this->phpmailer->ClearAttachments();
+		return $result;//mail($email,$subject,$body,$from);
+	}
+	
+public function SendA2LEventPayed($name, $email, $campname, $datestart, $dateend, $cost, $description)
 	{
 		//$from = "From: ".EMAIL_FROM_NAME." <".EMAIL_FROM_ADDR.">";
 		$subject = "Campdavid Namibia - Paid for event";

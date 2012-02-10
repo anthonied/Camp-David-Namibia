@@ -17,7 +17,7 @@ if(!$session->IsAdministrator())
 		colNames:['#', 'Camp Type', 'Start Date', 'End Date', 'Max Attendance', 'Cost', 'Partial Payments', 'Status', 'Description'],
 	   	colModel:[
 	   		{name:'idevents',index:'idevents', width:30, align:"right"},
-	   		{name:'name',index:'b.name', width:90, align:"right", editable: true,  edittype: "select", editoptions: {value: "1:Knight in Training;2:Battle to Fight"}, editrules: {required: true}},
+	   		{name:'name',index:'b.name', width:90, align:"right", editable: true,  edittype: "select", editoptions: {value: "1:Knight in Training;2:Battle to Fight;3:Adventure to Live"}, editrules: {required: true}},
 	   		{name:'startdate',index:'startdate', width:100, classes:'dtPicker', align:"right", formatter: 'date', formatoptions:{srcformat: "Y-m-d", newformat: "Y-m-d"}, editable: true, editoptions: {dataInit : function (elem){
 	   		 $(elem).datepicker({changeYear : true,
 	   				changeMonth : true,
